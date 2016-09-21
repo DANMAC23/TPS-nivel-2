@@ -26,19 +26,23 @@ function dividir(numberA, numberB) {
 }
 
 switch (operacion) {
-	case 'sumar', '+':
+	case '+':
+	case 'sumar': 
 	sumar(numberA, numberB);
 	break;
 
-	case 'restar', '-':
+	case '-':
+	case 'restar':
 	restar(numberA, numberB);
 	break;
 
-	case 'multiplicar', '*':
+	case '*':
+	case 'multiplicar':
 	multiplicar(numberA, numberB);
 	break;
 
-	case 'dividir', '/':
+	case '/':
+	case 'dividir':
 	dividir(numberA, numberB);
 	break;
 }
